@@ -31,7 +31,7 @@ public class Indexer {
                         TreeMap::new));
     }
 
-    private String makeIndexing(String input) {
+    public String makeIndexing(String input) {
         Map<Character, Set<String>> inputMap = stringToMap(input);
         Iterator keysIterator = inputMap.keySet().iterator();
 
